@@ -1,0 +1,465 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+.contener {
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 124px;
+  align-items: center;
+}
+.div1 {
+  display: flex;
+  gap: 25px;
+}
+.div2 p {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 58.59px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+.rasm2 {
+  width: 368px;
+}
+.div2 {
+  margin-left: 122px;
+}
+.div2 button {
+  width: 179px;
+  height: 53px;
+  border-radius: 7px;
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23.44px;
+  text-align: center;
+  color: white;
+  margin-top: 58px;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  justify-content: center;
+}
+
+.div3 {
+  width: 344px;
+  height: 414px;
+  border-radius: 9px;
+  background: #ffffff;
+}
+.div3 img {
+  width: 363px;
+  height: 242px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.div4 {
+  text-align: left;
+}
+.div4 h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+}
+.div4 p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58.59px;
+  text-align: center;
+}
+.section2 {
+  display: flex;
+  justify-content: center;
+  gap: 61px;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.div5 {
+  width: 406px;
+  height: 157px;
+  border-radius: 9px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding: 63px 38px 64px 44px;
+  margin-top: 98px;
+}
+.section3 {
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+  height: 357px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.div7 {
+  position: absolute;
+  top: -90px;
+  left: 130px;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  text-align: center;
+  padding: 114px 48px 48px 45px;
+}
+.div8 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.div8 img {
+  width: 33px;
+  height: 33px;
+}
+
+.div9 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.div12 {
+  background-image: url("./fayl/Rectangle\ 18.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 126px;
+}
+.div-box {
+  margin: 0 auto;
+  width: 1180.27px;
+  height: 392.18px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 35px 0px #d4145a40;
+
+  background-color: white;
+}
+.input1 {
+  width: 362.49px;
+  height: 50.72px;
+  border-radius: 9px;
+  border: 1px solid #a1a1a1;
+  margin-top: 45.58px;
+  margin-left: 215.27px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-align: left;
+  padding-left: 17.32px;
+}
+.input2 {
+  width: 362.49px;
+  height: 50.72px;
+  border-radius: 9px;
+  border: 1px solid #a1a1a1;
+  margin-top: 45.58px;
+  margin-left: 20.74px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-align: left;
+  padding-left: 17.32px;
+}
+.input3 {
+  width: 749.73px;
+  height: 81.65px;
+  border-radius: 9px;
+  border: 1px solid #a1a1a1;
+  margin-left: 215.27px;
+  margin-top: 17.32px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  text-align: left;
+  padding-left: 21.93px;
+}
+.button1 {
+  width: 169.49px;
+  height: 42.06px;
+  border-radius: 9px;
+  margin-left: 501.06px;
+  background: linear-gradient(96.12deg, #d4145a -21.03%, #3d5bf5 103.56%);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: center;
+  color: white;
+  margin-top: 48.25px;
+}
+.p1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  text-align: center;
+  padding-top: 42px;
+}
+@media (max-width: 1075px) {
+  .div12 {
+    background-image: url("./fayl/Rectangle\ 18.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 126px;
+  }
+}
+@media (max-width: 1150px) {
+  .div12 {
+    background-image: url("./fayl/Rectangle\ 18.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 126px;
+  }
+}
+@media (max-width: 1181px) {
+  .div12 {
+    background-image: url("./fayl/Rectangle\ 18.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 126px;
+  }
+  .div-box {
+    margin: 0 auto;
+    width: 635px;
+    height: 401px;
+    border: 1px;
+    box-shadow: 0px 0px 35px 0px #d4145a40;
+    background-color: white;
+    margin-top: -90px;
+  }
+  .div-box2{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+  .input3 {
+    width: 432px;
+    height: 95px;
+    margin: 0 auto;
+  }
+  .input2 {
+    width: 432px;
+    height: 41px;
+    margin: 0 auto;
+    
+  }
+  .input1 {
+    width: 432px;
+    height: 41px;
+    margin-bottom: -51px;
+    margin: 0 auto;
+  }
+  .button1 {
+    width: 169.49px;
+    height: 42.06px;
+    border-radius: 9px;
+    margin: 0 auto;
+  } 
+}
+@media(max-width:320px){
+  .div-box{
+    width: 267px;
+height: 298px;
+
+background-color: white;
+
+  }
+  .input1{
+    width: 212px;
+height: 20px;
+border-radius: 9px;
+border: 1px solid #a1a1a1;
+
+  }
+  .input2{
+    width: 212px;
+height: 20px;
+border-radius: 9px;
+border: 1px solid #a1a1a1;
+
+  }
+  .p1{
+    margin-top: -30px;
+  }
+  .input3{
+    width: 212px;
+height: 95px;
+border-radius: 9px;
+border: 1px solid #a1a1a1;
+text-align: center;
+
+  }
+  .button1 {
+    width: 58px;
+    height: 18px;
+    border-radius: 4px;
+    margin: 0 auto;
+font-size: 9px;
+font-weight: 400;
+line-height: 10.55px;
+text-align: center;
+
+  } 
+}
+@media (max-width: 920px) {
+  .div12 {
+    background-image: url("./fayl/Rectangle\ 18.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 126px;
+  }
+}
+@media (max-width: 623px) {
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 769px) {
+  .div1 {
+    display: none;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  .div3 {
+    margin-bottom: -100px;
+  }
+  .section3 {
+    height: 948px;
+    margin-top: 124px;
+  }
+  nav {
+    display: flex;
+    justify-content: left;
+    margin-left: 66px;
+  }
+  .section1 img {
+    width: 368px;
+    height: 473px;
+  }
+  .div2 p {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: left;
+  }
+  .div2 {
+    margin-left: 66px;
+  }
+}
+@media (max-width: 319px) {
+  .section1 img {
+    display: none;
+  }
+  nav img {
+    margin-left: -40px;
+  }
+  .div2 p {
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 22px;
+    margin-left: -150px;
+
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 25px;
+  }
+
+  .div2 button {
+    margin-left: -100px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .div3 {
+    width: 264px;
+    height: 388px;
+    margin: 0 auto;
+    margin-bottom: -100px;
+  }
+  .div3 img {
+    width: 278.58px;
+    height: 172.11px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    margin-top: 61px;
+  }
+
+  .div5 {
+    width: 267px;
+    height: 271px;
+    position: relative;
+  }
+  .div7 {
+    position: absolute;
+    top: -90px;
+    left: 60px;
+  }
+  .section3 {
+    height: 1224px;
+  }
+  .div11 {
+    background-image: url("./fayl/подложка\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 256px;
+  }
+  .rasm {
+    margin: 0 auto;
+  }
+  .div9 p {
+    text-align: center;
+  }
+}
+@media (max-width: 613px) {
+  .rasm2 {
+    width: 20px;
+    height: 10px;
+  }
+}
+@media (max-width: 529px) {
+  .div2 {
+    margin-left: 180px;
+  }
+}
